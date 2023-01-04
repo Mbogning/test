@@ -118,9 +118,7 @@
 		},
 
 		headerNav: function() {
-			// if ( $main_nav.exists() ) {
-				
-			if ( true ) {
+			if ( $('.main-nav').exists() ) {
 
 				var $top_nav     = $('.nav-account');
 				var $top_nav_li  = $('.nav-account > li');
