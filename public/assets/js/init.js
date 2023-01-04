@@ -81,8 +81,6 @@
 
 	var Core = {
 
-		
-
 		initialize: function() {
 
 			//this.SvgPolyfill();
@@ -121,6 +119,7 @@
 
 		headerNav: function() {
 			// if ( $main_nav.exists() ) {
+				
 			if ( true ) {
 
 				var $top_nav     = $('.nav-account');
@@ -179,17 +178,11 @@
 					});
 				}
 
-				// Mobile Menu Toggle
-				$toggle_btn.on('click', function(){
-					$wrapper.toggleClass('site-wrapper--has-overlay');
-				});
+
 				$(document).on('click', '#header-mobile__toggle', function() {
 					$wrapper.toggleClass('site-wrapper--has-overlay');
 				});
 
-				$('.site-overlay, .main-nav__back').on('click', function(){
-					$wrapper.toggleClass('site-wrapper--has-overlay');
-				});
 				$(document).on('click', '.site-overlay, .main-nav__back', function() {
 					$wrapper.toggleClass('site-wrapper--has-overlay');
 				});

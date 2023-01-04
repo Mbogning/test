@@ -10673,7 +10673,8 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: background-color .4s ease-in-out, opacity .4s ease-in-out, transform .4s ease-in-out;
-    overflow-x: hidden
+    overflow-x: hidden;
+    height: 100vh !important;
 }
 
 .site-wrapper--has-overlay {
